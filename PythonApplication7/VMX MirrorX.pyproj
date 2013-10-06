@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4e8173da-7a7d-41ed-bc98-844e82572ebe}</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>demo.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>VMX MirrorX</Name>
+    <RootNamespace>PythonApplication7</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="arnetwork.py" />
+    <Compile Include="arvideo.py" />
+    <Compile Include="demo.py" />
+    <Compile Include="DroneControl stable.py" />
+    <Compile Include="CharRecg.py" />
+    <Compile Include="LanSend.py" />
+    <Compile Include="ExtraGestures.py" />
+    <Compile Include="libardrone.py" />
+    <Compile Include="module1.py" />
+    <Compile Include="module2.py" />
+    <Compile Include="module3.py" />
+    <Compile Include="module4.py" />
+    <Compile Include="module5.py" />
+    <Compile Include="module6.py" />
+    <Compile Include="serverwrite.py" />
+    <Compile Include="Test.py" />
+    <Compile Include="User_track.py" />
+    <Compile Include="SkeletonEngineCallback.py" />
+    <Compile Include="waterdanc.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
